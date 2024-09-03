@@ -1,25 +1,42 @@
 <resources>
-    <string name="app_name">doanmobile</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_welcome">Home Screen</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="app_name">App nhạc</string>
 
-    <string name="slide_1_title">Hello Music!</string>
-    <string name="slide_1_desc">Music expresses that which can not be said and on which it is impossible to be silent</string>
+    <!--    <string name="splash_text">Highly committed to quality products &amp; excellent services</string>-->
 
-    <string name="slide_2_title">Music Tickets</string>
-    <string name="slide_2_desc">I love music passionately. And because I love it I try to free it from barren traditions that stifle it</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_all_songs">Tất cả bài hát</string>
+    <string name="menu_featured_songs">Chi tiết</string>
+    <string name="menu_popular_songs">Bài hát phổ biến</string>
+    <string name="menu_new_songs">Bài mới</string>
 
-    <string name="slide_3_title">Music Discounts</string>
-    <string name="slide_3_desc">Music is the arithmetic of sounds as optics is the geometry of light. – Claude Debussy</string>
+    <string name="label_facebook">Facebook</string>
+    <string name="label_call">Call Phone</string>
+    <string name="label_gmail">Gmail</string>
+    <string name="label_skype">Skype</string>
+    <string name="label_youtube">Youtube</string>
+    <string name="label_zalo">Zalo</string>
 
-    <string name="slide_4_title">Music Travel</string>
-    <string name="slide_4_desc">It was like being in the eye of a hurricane. You’d wake up in a concert and think, Wow, how did I get here?</string>
+    <string name="play_all">Phát tất cả</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="music_player">Music Player</string>
+    <string name="views">Views</string>
+    <string name="label_start_time">00:00</string>
 
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
-    <string name="action_search">Search</string>
+
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Hủy</string>
+
+    <string name="name_require">Nhập tên</string>
+    <string name="comment_require">Nhập comment</string>
+
+    // Hint
+    <string name="hint_search_name">Tên bài hát…</string>
+
+    // Label
+    <string name="label_artist">Ca sĩ:</string>
+
+    // Message
+    <string name="msg_please_waiting">Chờ miếng…</string>
+    <string name="msg_exit_app">Thoát ra? Bạn chắc chưa?</string>
+    <string name="msg_get_date_error">Đợi một miếng nha...</string>
 </resources>

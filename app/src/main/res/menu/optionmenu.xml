@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/mnMusicplay" android:title="Musicplay" app:showAsAction="always" android:icon="@drawable/videoplayer"/>
-    <item android:id="@+id/mnMusic" android:title="Music" app:showAsAction="always" android:icon="@drawable/list" android:tooltipText="home"/>
-    <item android:id="@+id/mnAccount" android:title="Account" app:showAsAction="always" android:icon="@drawable/login"/>
-    <item android:id="@+id/mnMusicnote" android:title="Musicnote" app:showAsAction="always" android:icon="@drawable/musicnote"/>
-    <item android:id="@+id/mnMusiclist" android:title="Musiclist" app:showAsAction="always" android:icon="@drawable/musiclist"/>
-    <item android:id="@+id/mnSearch" android:title="Search" app:showAsAction="always" android:icon="@drawable/search"/>
-</menu>

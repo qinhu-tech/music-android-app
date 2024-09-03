@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "691607672848",
+    "firebase_url": "https://appnhac-9cc8b-default-rtdb.firebaseio.com",
+    "project_id": "appnhac-9cc8b",
+    "storage_bucket": "appnhac-9cc8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691607672848:android:0a7e8c5e49b6b82662d295",
+        "android_client_info": {
+          "package_name": "com.example.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691607672848-dvttnhact15uvreo7jv4bsiuj18ekoh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZxHxsDV_qqaoZQAw45DqndQ_kZfOqHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691607672848-dvttnhact15uvreo7jv4bsiuj18ekoh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
