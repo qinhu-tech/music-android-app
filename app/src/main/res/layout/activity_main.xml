@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="225dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/spotify" />
+
+    <ImageView
+        android:id="@+id/ivlogo1"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/spotifyy" />
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="TẬN HƯỞNG ÂM NHẠC"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="155dp"
+        android:text="File Báo Cáo">
+    </Button>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="148dp"
+        android:text="Playing music">
+    </Button>
+</RelativeLayout>

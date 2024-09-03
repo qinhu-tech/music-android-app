@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@drawable/start"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/zingchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/baseline_play_circle_24"
+        android:text="#SpotifyChart"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/bieudo"
+        android:layout_width="405dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bieudo"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/bangxh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/baseline_format_list_numbered_24"
+        android:text="Bảng xếp hạng tuần "
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Bật tình yêu lên                 3:24"
+        android:textStyle="italic"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_1_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Thị mầu                              3:25"
+        android:textStyle="italic"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_2_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Em là kẻ đáng thương      3:25"
+        android:textStyle="italic"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_3_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Gió                                       4:38"
+        android:textStyle="italic"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_4_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Chờ trông ai                       4:12"
+        android:textStyle="italic"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_5_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Họ đâu thương em           4:33"
+        android:textStyle="italic"
+        android:layout_marginTop="530dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_6_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:text=" - Cuối cùng thì                     3:33"
+        android:textStyle="italic"
+        android:layout_marginTop="590dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:drawablePadding="1dp"
+        android:drawableLeft="@drawable/baseline_filter_7_24"
+        />
+</FrameLayout>

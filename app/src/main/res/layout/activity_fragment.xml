@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C2C7BC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/mnbottom"/>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/start"
+        app:layout_constraintBottom_toTopOf="@id/navmenu"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/btbackk"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="639dp"
+            android:backgroundTint="#769EA4"
+            android:text="Back"
+            android:textSize="16dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/start"
+            android:padding="6dp"
+            android:gravity="top"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                >
+                <TextView
+                    android:id="@+id/Loi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_horizontal"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:text="Chào bạn! Chào mừng bạn đến với Hướng dẫn sử dụng Spotify (Hướng dẫn sử dụng) áp dụng khi sử dụng trang web, ứng dụng và dịch vụ của Spotify tham khảo Hướng dẫn sử dụng này (Dịch vụ) bao gồm truy cập bất kỳ loại tài liệu hoặc nội dung nào được cung cấp thông qua các Dịch vụ đó (Nội dung). \n
+ - Hướng dẫn sử dụng này được thiết kế để đảm bảo các Dịch vụ luôn mang lại niềm vui cho mọi người. Ngoài Hướng dẫn sử dụng này, nội dung phải tuân theo Quy tắc của nền tảng Spotify (Quy tắc của nền tảng). \n  - Vi phạm Quy tắc của nền tảng và Hướng dẫn sử dụng có thể dẫn đến việc xóa bỏ bất kỳ nội dung hoặc tài liệu nào bạn đã đóng góp vào Dịch vụ và/hoặc chấm dứt hoặc tạm dừng tài khoản của bạn. Chúng tôi cố gắng cung cấp Dịch vụ rộng rãi cho tất cả mọi người nhưng bạn không thể sử dụng Dịch vụ của chúng tôi nếu trước đây chúng tôi đã chấm dứt tài khoản của bạn trên bất kỳ Dịch vụ nào của chúng tôi. Chúng tôi cũng cấm nỗ lực né tránh các hành động thực thi trước đó, bao gồm thông qua việc tạo tài khoản mới.
+
+Những điều sau đây không được phép vì bất kỳ lý do nào liên quan đến Dịch vụ và tài liệu hoặc nội dung được cung cấp thông qua Dịch vụ, hoặc bất kỳ phần nào của Dịch vụ:\n - Đảo ngược kỹ thuật, biên dịch ngược, tháo rời, sửa đổi hoặc tạo các sản phẩm phái sinh, trừ trường hợp các hạn chế như vậy bị pháp luật hiện hành nghiêm cấm rõ ràng. Nếu luật pháp hiện hành cho phép bạn biên dịch bất kỳ phần nào của Dịch vụ hoặc Nội dung khi cần để có được thông tin cần thiết để tạo ra một chương trình độc lập có thể được vận hành với Dịch vụ hoặc với một chương trình khác, Thông tin bạn thu thập từ các hoạt động đó (a) chỉ có thể được sử dụng cho mục đích nêu trên, (b) không được tiết lộ hoặc truyền đạt nếu không có sự đồng ý trước bằng văn bản của Spotify cho bất kỳ bên thứ ba nào mà không cần phải tiết lộ hoặc giao tiếp để đạt được mục tiêu đó, và (c) không được sử dụng để tạo bất kỳ phần mềm hoặc dịch vụ nào tương tự về cơ bản trong cách thể hiện cho bất kỳ phần nào của Dịch vụ hoặc Nội dung;
+sao chép, tái tạo, phân phối lại, chép, ghi, truyền, thực hiện, đóng khung, liên kết hoặc hiển thị với công chúng, phát sóng hoặc công bố công khai, hoặc bất kỳ hoạt động sử dụng nào khác không được cho phép rõ ràng theo Thỏa thuận hoặc luật pháp hiện hành hoặc vi phạm quyền sở hữu trí tuệ;nhập hoặc sao chép bất kỳ tập tin cục bộ nào mà bạn không có quyền hợp pháp để nhập hoặc sao chép theo cách này;"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

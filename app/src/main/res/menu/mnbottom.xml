@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home" android:id="@+id/mnHome" android:icon="@drawable/homee"/>
+    <item android:title="Radio" android:id="@+id/mnInfo" android:icon="@drawable/radio"/>
+    <item android:title="Follow" android:id="@+id/mnSetting" android:icon="@drawable/followerss"/>
+</menu>
